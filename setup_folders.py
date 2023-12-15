@@ -25,3 +25,9 @@ def create_project_structure(structure):
 # Create the project structure
 create_project_structure(structure)
 print("Project structure created successfully.")
+
+# create the environment.yml file if it doesn't exist
+if not os.path.exists('environment.yml'):
+    with open('environment.yml', 'w') as f:
+        f.write('')  # Create an empty file
+    print("environment.yml created successfully.")

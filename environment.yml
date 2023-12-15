@@ -1,0 +1,11 @@
+name: thecough
+channels:
+  - defaults
+dependencies:
+  - python=3.8  # or any specific version you prefer
+  - flask
+  - kivy  # Note: Kivy might have additional dependencies based on the platform
+  - sqlite3  # If you're using SQLite
+  - pip
+  - pip:
+      - some-other-package  # Any additional pip packages if required
